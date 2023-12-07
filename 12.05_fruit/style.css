@@ -1,0 +1,39 @@
+/* CSS RESET */
+* {
+  margin: initial;
+}
+h1 {
+  font-size: inherit;
+}
+
+/* COMPONENTS */
+body {
+  background-image: url("./day01-images/orange-bg.png");
+  padding-top: 100px;
+}
+
+div {
+  background-color: white;
+  width: 450px;
+  padding: 20px;
+  margin: 0 auto;
+  border: 3px solid orange;
+  border-radius: 0 10%;
+}
+
+img {
+  position: relative;
+  left: -10px;
+}
+
+h1 {
+  font-size: 30px;
+  color: orange;
+  text-align: center;
+}
+
+ul {
+ padding:10px 30; 
+}
+
+
