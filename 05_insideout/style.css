@@ -1,0 +1,53 @@
+/* CSS RESET */
+* {
+	margin: unset;
+	padding: unset;
+}
+
+
+:root {
+	font-family: 'arial';
+}
+
+body {
+	background-color: rgb(37, 39, 41);
+}
+
+div.wrap {
+	display: flex;
+	margin-top: 100px;
+}
+
+.feeling {
+	box-shadow:  0 0 20px red;
+	background-color: aliceblue;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	line-height: 200px;
+	letter-spacing: 0.7em;
+	text-indent: 0.7em;
+	margin: auto;
+	font-size: 20px;
+	text-align: center;
+	background-size: 180px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+
+.feeling.anger {
+	background-image: url(./images/anger.png);
+	background-position: top 100px;
+}
+
+
+.feeling.joy {
+	box-shadow: 0 0 20px yellow;
+	background-image: url(./images/joy.png);
+}
+
+.feeling.sad {
+	box-shadow: 0 0 20px blue;
+	background-image: url(./images/sadness.png);
+}
