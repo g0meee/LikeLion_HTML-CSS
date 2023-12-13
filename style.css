@@ -1,0 +1,89 @@
+/* CSS RESET */
+* {
+	margin: unset;
+	padding: unset;
+}
+
+ul, li {
+	list-style-type: none;
+}
+
+/* TYPEGRAPHY */
+:root {
+	font-family: 'arial';
+}
+
+/* COMPONENTS */
+body {
+	background-image: url(./images/bg.png);
+}
+.wrap {
+	background-color: rgb(66, 63, 63);
+	width: 700px;
+	height: 400px;
+	margin: 100px auto;
+	display: flex;
+}
+
+.box.photo {
+	height: 150px;
+	background-image: url(./images/profile-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.box img {
+ border-radius: 50%;
+ border: 3px solid white;
+ margin-top: 20px; 
+ /*  */
+}
+
+ul {
+	margin: 10px;
+	margin-right: 0; 
+	background-color: rgb(46, 43, 43);
+	color:rgb(152, 156, 156);
+}
+
+li {
+ padding: 14px;
+ font-weight: 600;
+}
+
+li:hover {
+	background-color: rgb(29, 28, 28);
+	cursor: pointer;
+}
+
+.box.left {
+ flex-basis: 150px;
+ flex-shrink: 0;
+}
+
+
+.box.right {
+	background-color: #fff;
+	background-image: url("./images/trophy.png");
+	background-repeat: no-repeat;
+	background-position: right 30px bottom 20px;
+	background-size: 40%;
+	padding: 30px;
+  flex-grow: 1;
+	color:rgb(66, 63, 63)
+}
+
+h1 {
+	color: rgb(45, 45, 122);
+	padding-bottom: 10px;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+.box.right.sprite {
+	color: red;
+	width: 50px;
+}
