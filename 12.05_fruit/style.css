@@ -1,10 +1,13 @@
 /* CSS RESET */
-* {
-  margin: initial;
+body,h1,ul {
+  margin: unset;
 }
 h1 {
+  margin: unset;
   font-size: inherit;
 }
+/* 익숙해질 때까지 레이아웃 가시화, 리셋 모두 차근차근 살펴보기  */
+
 
 /* COMPONENTS */
 body {
@@ -12,28 +15,22 @@ body {
   padding-top: 100px;
 }
 
-div {
-  background-color: white;
-  width: 450px;
-  padding: 20px;
-  margin: 0 auto;
-  border: 3px solid orange;
-  border-radius: 0 10%;
-}
-
-img {
-  position: relative;
-  left: -10px;
-}
-
 h1 {
   font-size: 30px;
   color: orange;
+  margin: 20px;
   text-align: center;
 }
 
-ul {
- padding:10px 30; 
+div {
+  background-color: white;
+  width: 400px;
+  padding: 60px;
+  margin: 50px auto;
+  border: 10px solid orange;
+  border-radius: 10%;
 }
 
-
+li {
+ padding: 5px 30px; 
+}
